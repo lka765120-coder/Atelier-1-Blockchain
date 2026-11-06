@@ -1,0 +1,17 @@
+EXERCICE 2 - PROOF OF WORK
+Difficulte : 2 zero(s) initiaux
+Nonce : 51
+Hash : 00cf04a3809e3d0c05f6c380648167bccdf3630128962453b670fc0d1587a40f
+Temps CPU : 0.001000 seconde(s)
+
+Difficulte : 3 zero(s) initiaux
+Nonce : 145
+Hash : 000bbf3f7f5687675fd5c153cf54c5f3afc9db7e0b827793b297bc375c458b06
+Temps CPU : 0.001000 seconde(s)
+
+Difficulte : 4 zero(s) initiaux
+Nonce : 35083
+Hash : 0000e4a5554265031c01fe3ef9677cf9061baf431088419836422793d81ca6f5
+Temps CPU : 0.061000 seconde(s)
+
+Le temps augmente en general avec la difficulte; il varie selon la machine.

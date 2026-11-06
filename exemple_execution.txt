@@ -1,0 +1,40 @@
+ATELIER 1 - BLOCKCHAIN (DEMONSTRATION C)
+SHA-256 via OpenSSL | PoW et PoS pedagogiques
+
+EXERCICE 1 - ARBRE DE MERKLE
+Feuille 1 (Alice -> Bob : 10) : 2eef699ec4b07af0...
+Feuille 2 (Bob -> Charlie : 3) : 6e7e4f4563d5b78b...
+Feuille 3 (Alice -> Charlie : 2) : 56adc1abf783fefb...
+Racine de Merkle (3 feuilles, derniere dupliquee) : c2afab69f2deaa5e025ceb5e9ddaaae268f4b7588f7070f2c4dfe5a8434f3ba3
+
+EXERCICE 2 - PROOF OF WORK : DIFFICULTE ET TEMPS
+Difficulte 2 zero(s) | nonce 157 | hash 00af37f4a2643fd0e623... | temps 0.000000 s
+Difficulte 3 zero(s) | nonce 3373 | hash 0009fa2aa4b6ff613a6d... | temps 0.012000 s
+Difficulte 4 zero(s) | nonce 40718 | hash 0000e18f1238d68b259c... | temps 0.085000 s
+
+EXERCICE 3 - COMPARAISON DES CONSENSUS
+Proof of Work (difficulte 4) : 0.106000 s pour un bloc
+Proof of Stake : 0.037000 s pour 20000 simulations (moyenne 0.000001850 s/selection)
+Validateur choisi pour le bloc PoS d'exemple : Alice
+Mesure (anti-optimisation) : 1402201
+Note : mesure pedagogique, les temps dependent de la machine et du niveau PoW.
+
+EXERCICE 4 - BLOCKCHAIN SIMPLE AVEC PROOF OF WORK
+
+Chaine PoW :
+Bloc 0 | hash: 0004944eed753767... | precedent: 0000000000000000... | racine Merkle: eb5956cb6f606f24... | nonce: 11694
+Bloc 1 | hash: 000bfda82e8252b4... | precedent: 0004944eed753767... | racine Merkle: c2afab69f2deaa5e... | nonce: 1444
+Bloc 2 | hash: 000571af23f74fbc... | precedent: 000bfda82e8252b4... | racine Merkle: 7b5b57adc5c828ea... | nonce: 1347
+Verification initiale : Blockchain valide : 3 blocs verifies.
+Apres modification d'une transaction : Bloc 1 invalide : racine de Merkle incorrecte.
+
+Blockchain simple avec Proof of Stake
+
+Chaine PoS :
+Bloc 0 | hash: 4f6681a7f92c85db... | precedent: 0000000000000000... | racine Merkle: eb5956cb6f606f24... | validateur: Alice
+Bloc 1 | hash: b337435ffecae409... | precedent: 4f6681a7f92c85db... | racine Merkle: c2afab69f2deaa5e... | validateur: Alice
+Bloc 2 | hash: 6d44093aa2c16617... | precedent: b337435ffecae409... | racine Merkle: 7b5b57adc5c828ea... | validateur: Alice
+Verification initiale : Blockchain valide : 3 blocs verifies.
+Apres modification d'une transaction : Bloc 1 invalide : racine de Merkle incorrecte.
+
+Fin de la demonstration.

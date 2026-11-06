@@ -1,0 +1,17 @@
+EXERCICE 4 - BLOCKCHAIN SIMPLE
+
+Blockchain avec Proof of Work
+Bloc 0 | hash 000d4f904acd52bf... | precedent 0000000000000000... | nonce 2536
+Bloc 1 | hash 0001d28d164fd952... | precedent 000d4f904acd52bf... | nonce 465
+Bloc 2 | hash 00004f662bff4049... | precedent 0001d28d164fd952... | nonce 4589
+Verification avant modification : VALIDE
+Verification apres modification : INVALIDE
+
+Blockchain avec Proof of Stake
+Bloc 0 | hash 7af3eb90c20db8b6... | precedent 0000000000000000... | validateur Alice
+Bloc 1 | hash 64cb7ad1c173231a... | precedent 7af3eb90c20db8b6... | validateur Alice
+Bloc 2 | hash 1b1f13094899a417... | precedent 64cb7ad1c173231a... | validateur Bob
+Verification avant modification : VALIDE
+Verification apres modification : INVALIDE
+
+La modification d'une transaction invalide la racine Merkle et la chaine.

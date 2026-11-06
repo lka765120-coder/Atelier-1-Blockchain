@@ -1,0 +1,6 @@
+EXERCICE 3 - COMPARAISON PoW / PoS
+Proof of Work, difficulte 4 : 0.102000 seconde(s) pour un bloc
+Proof of Stake : 0.040000 seconde(s) pour 20000 simulations
+Temps moyen PoS par selection : 0.000002000 seconde(s)
+Validateur PoS d'exemple : Bob
+Conclusion : PoS est plus rapide dans cette simulation; ce resultat depend de l'implementation.

@@ -1,0 +1,9 @@
+EXERCICE 1 - ARBRE DE MERKLE
+Feuille 1 : Alice -> Bob : 10
+  SHA-256 = 2eef699ec4b07af0f32d41e1eaa49d22783385177c54ca01d62cf7eb1ba48c85
+Feuille 2 : Bob -> Charlie : 3
+  SHA-256 = 6e7e4f4563d5b78b3e19b8a04784f89d0795c2e8c0b72970dbcf0a7557580b69
+Feuille 3 : Alice -> Charlie : 2
+  SHA-256 = 56adc1abf783fefb80323606e9fd21f6804fa9f7ff62d32aaee0aba44cd85594
+Racine de Merkle (la derniere feuille est dupliquee) :
+c2afab69f2deaa5e025ceb5e9ddaaae268f4b7588f7070f2c4dfe5a8434f3ba3
